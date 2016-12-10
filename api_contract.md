@@ -1,10 +1,10 @@
-### Api Contract
+## Api Contract
 
-1. Get the unique list of sources 
+###1. Get the unique list of sources 
 
    This should aggregate the list of sources from may be the past one week indices. Logstasher takes into account the past one month index. This will power the sources dropdown on the search toolbar
 
-2. Search API
+###2. Search API
 
 - The default filter could be the `Last 30s` and show all the log events since then. UI will pass fully qualified timestamp of the form `2016-12-10T10:07:23.339` as `from` filter 
 - Some form of pagination api. Details upto implementer
@@ -15,7 +15,7 @@
 - Ability to search for keywords within a single request. For all log events with the same `trace_id`, check if `John Doe` and `registered successfully` are present distributed across same or multiple events' `message` field 
 - Streamed tailing api (Nice to have)
 
-3. Metrics (all with ability to time slice. Current month might be default)
+###3. Metrics (all with ability to time slice. Current month might be default)
 
 - Show the top 5 slowest requests
 - Show the requests with errors
