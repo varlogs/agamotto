@@ -1,0 +1,47 @@
+.login-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .login-mask {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgb(152, 172, 191);
+  }
+
+  .login-content {
+    padding-bottom: 30px;
+    border-radius: 8px;
+    background: #fff;
+    z-index: 1;
+    h2 {
+      margin-bottom: 35px;
+      padding: 30px 90px 20px 90px;
+      border-radius: 5px 5px 0 0;
+      background: #697c94;
+      color: #fff;
+      text-align: center;
+    }
+    button.ant-btn {
+      margin-top: 25px;
+    }
+  }
+
+  .ant-form-item-label {
+    text-align: left;
+  }
+
+  .ant-form-item {
+    padding: 0 40px;
+  }
+  .ant-form-item > label:after {
+    content: "";
+  }
+}

@@ -1,0 +1,22 @@
+.navbar {
+  height: 60px;
+  line-height: 60px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: #9A5BB3;
+  border: 1px solid #9A5BB3;
+
+  .logo {
+    max-width: 90%;
+    height: auto;
+    display:inline-block;
+    vertical-align: middle;
+  }
+
+  .sourcePicker {
+    line-height: 90%;
+    margin-top: 11px;
+  }
+
+}
+
