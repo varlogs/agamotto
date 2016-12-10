@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import LogoImg from '../../images/logo.png'
 import {Row, Col} from 'antd';
 import Select from 'react-select';
+import DateTimePicker from '../../components/DataTimePicker'
 import 'react-select/dist/react-select.css';
 import './Navbar.scss'
 
@@ -40,7 +41,10 @@ export default class Navbar extends Component {
               onChange={this.sourceSelected}
             />
           </Col>
-          <Col span={12}>
+          <Col span={6}>
+            <DateTimePicker/>
+          </Col>
+          <Col span={6}>
           </Col>
         </Row>
       </div>
