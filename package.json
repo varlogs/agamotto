@@ -1,7 +1,7 @@
 {
-  "name": "react-redux-antd",
-  "version": "1.0.0",
-  "description": "react redux best practice",
+  "name": "agamotto",
+  "version": "0.1.0",
+  "description": "varlogs ui",
   "main": "index.js",
   "scripts": {
     "start-message": "babel-node tools/startMessage.js",
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:Justin-lu/react-redux-antd.git"
+    "url": "https://github.com/varlogs/agamotto"
   },
   "dependencies": {
     "antd": "1.11.2",
@@ -98,6 +98,6 @@
     "webpack-dev-middleware": "1.6.1",
     "webpack-hot-middleware": "2.12.2"
   },
-  "author": "Justin Lu <gdjyluxiaoyong@gmail.com> (http://justin-lu.github.io/)",
-  "license": "ISC"
+  "author": "RC, Sunil",
+  "license": "MIT"
 }
